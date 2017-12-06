@@ -10,9 +10,13 @@
 	padding-left: 1em;
 	padding-right: 2em;
 }
+.container-modal{
+  background-color: #01DFA5;
+}
+
 /* Estilos imagen de fondo taxi segunda sección */ 
 .img1{
-	background-image: url(../assets/images/taxi.jpg);
+	background-image: url(../images/taxi.jpg);
 	height: 100vh;
 	width: 100%;
 	background-size: cover;
@@ -51,6 +55,35 @@ hr{
  	height: 0.1em;
  	background-color: white;
   margin: 0 8px;
+}
+/* Estilos texto modal */
+.p-modal{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.p-modal2{
+  color: #585858;
+  text-align: center;
+}
+.content-input{
+  background-color: #848484;
+}
+.input-nombre, .input-apellido{
+  width: 19em;
+}
+.input-user{
+  width: 35.73em;
+  font-size: 0.90em;
+}
+.btn-model{
+  width: 30em;
+  background-color: #BDBDBD;
+}
+.btn-submit{
+  width: 30em;
+  background-color: #81BEF7;
+  color: white;
 }
 /* Estilos tercera sección desktop*/
 .third-section{
@@ -98,11 +131,14 @@ p{
 	font-size: 1.2em;
 }
 .img2{
-	background-image: url(../assets/images/conduce.jpg);
+	background-image: url(../images/conduce.jpg);
 	height: 80vh;
 	width: 100%;
 	background-size: cover;
 	background-position: bottom;
+}
+.p-modal3{
+  color: black;
 }
 .cont-driver{
 	margin-left: 11.3em;   

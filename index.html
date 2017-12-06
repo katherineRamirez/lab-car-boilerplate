@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	<title>Lab-car</title>
 </head>
@@ -38,9 +38,11 @@
 <div class="modal fade" id="modal1">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header container-modal">
         <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <i class="fa fa-user" aria-hidden="true"></i>
+       <div class="modal-body container-modal">         
+       </div> 
       </div>
     </div>
   </div>     
@@ -68,6 +70,33 @@
     </div>
   </div>
 </section>
+
+<!-- Modal de conviertete en conductor -->
+<div class="modal fade" id="modal2">
+  <div class="modal-dialog">
+    <div class="modal-content content-input">
+      <div class="modal-header">
+        <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <div class="modal-body"> 
+          <p class="p-modal">Ya tienes una cuenta?</p> 
+          <p class="p-modal2">O CREA UNA CUENTA NUEVA</p>
+          <input class="input-nombre" placeholder="Nombre">
+          <input class="input-apellido" placeholder="Apellido">
+          <p><input class="input-user" placeholder="Teléfono"></p> 
+          <p><input class="input-user" placeholder="Contraseña"></p>
+          <p><input class="input-user" placeholder="Ciudad"></p>
+          <p><input class="input-user" placeholder="(Opcional) Código de invitación"></p> 
+        <div class="btn-group">
+          <p><button class="btn btn-default btn-lg dropdown-toggle btn-model" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Cómo te enteraste de nosotros? <span class="caret"></span>
+          </button></p> 
+          <p><button class="btn btn-lg dropdown-toggle btn-submit" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Enviar</button></p>
+        </div>    
+        </div>         
+      </div>
+    </div>
+  </div>     
+</div>
 
 <!-- Sección imagen de iphone para desktop -->
 <section class="third-section hidden-xs">
@@ -111,7 +140,7 @@
         </div>
         <div class="row">
           <div class="col-sm-12 col-xs-12">
-            <img src="assets/images/iPhone6Plus.png">
+            <img src="../images/iPhone6Plus.png">
           </div>
         </div>
       </div>
@@ -133,13 +162,31 @@
             <div class="jumbotron cont-driver">
               <h3 class="h3-cont"><stong>Conduce cuando quieras</stong></h3>
               <h4> LabCar es una opción flexible para alcanzar tus metas financieras.</h4>
-              <p><a class="btn btn-lg button-cont" href="#ventana3" role="button" data-toggle="modal">Conviertete en Conductor</a></p>
+              <p><a class="btn btn-lg button-cont" href="#modal3" role="button" data-toggle="modal">Conviertete en Conductor</a></p>
             </div>
           </div>
         </div>
       </div>
     </div>
 </section>
+
+<!-- Modal de conviertete en conductor -->
+<div class="modal fade" id="modal3">
+  <div class="modal-dialog">
+    <div class="modal-content content-input">
+      <div class="modal-header">
+        <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <div class="modal-body">
+        <p class="p-modal3"><strong>¿Tienes vehículo de cuatro puertas?</strong></p>
+        <button class="btn btn-default btn-lg dropdown-toggle btn-model" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         si<span class="caret"></span>
+        </button>  
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>     
+</div>
 
 <!-- Sección conductor para mobile -->
   <div class="quarter-section2 hidden-lg hidden-md img2">
