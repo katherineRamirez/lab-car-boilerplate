@@ -1,1 +1,192 @@
 /* Los estilos de tu proyecto */
+*{
+	padding: 0;
+	margin: 0;
+  color: white;
+}
+/* Estilos de la barra menú */
+.height-navbar{
+	height: 10vh;
+	padding-left: 1em;
+	padding-right: 2em;
+}
+/* Estilos imagen de fondo taxi segunda sección */ 
+.img1{
+	background-image: url(../assets/images/taxi.jpg);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: bottom;
+}
+/* Estilos cuadro de texto de la segunda sección desktop */
+.text-box{
+  background-color: #f7b617;  
+  width: 40em;
+  padding: 3em 3em;
+  margin-top: 12em;
+  margin-left: 12em;
+}
+/* Estilos cuadro de texto de la segunda sección mobile */
+.text-box-mobile{
+  background-color: #f7b617;  
+  width: 40em;
+  padding: 3em 3em;
+  margin-top: 12em;
+  margin-left: 12em;
+}
+.h2-text-box{
+	margin-top: 0;
+}
+img .logo-blanco{
+	font-size: 2em;
+}
+hr{
+	width: 5em;
+}
+/* Estilos de las líneas a los lados del texto o bien */
+.p-text-box::after, .p-text-box::before{
+ 	content: "";
+	display: inline-block;
+ 	width: 8em;
+ 	height: 0.1em;
+ 	background-color: white;
+  margin: 0 8px;
+}
+/* Estilos tercera sección desktop*/
+.third-section{
+	background-color: #f7b617;
+	background-size: cover;
+  height: 83vh;
+  padding-top: 3.5em;
+}
+.phone-text{
+  border: 0.1em solid white;
+  width: 80em;
+}
+
+/* Estilos tercera sección mobile */
+.third-section-2{
+  background-color: #f7b617;
+  height: 95vh;
+  padding-top: 2em;
+}
+/* Estilos teléfono para mobile */
+.phone-mobile{
+  border: 0.1em solid white;
+  padding-left: 2em;
+}
+/* Estilo segundo texto del teléfono para mobile */
+.pie-mobile{
+  font-size: 1.5em;
+  padding-left: 1em;
+}
+.text{
+  font-size: 1.2em;
+  width: 20em;
+}
+.img-iphone{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.border{
+	border-top: 0.1em solid white;
+  border-bottom: 0.1em solid white;
+  border-right: 0.1em solid white;
+}
+p{
+	padding-top: 1em;
+	font-size: 1.2em;
+}
+.img2{
+	background-image: url(../assets/images/conduce.jpg);
+	height: 80vh;
+	width: 100%;
+	background-size: cover;
+	background-position: bottom;
+}
+.cont-driver{
+	margin-left: 11.3em;   
+  width: 33.5em;
+  box-sizing: border-box;
+  padding: 3em 2em;
+  height: 38em;
+  background-color: #000000;
+  opacity: 0.7;
+}
+.cont-driver-mobile{
+  width: 100%;
+  padding: 3em 2em;
+  height: 35em;
+  background-color: #000000;
+  opacity: 0.7;
+}
+.h3-cont{
+	padding-top: 3em;
+}
+.button-cont{
+	background-color: #f7b617;
+  border-radius: 0.2em;
+  color: white;
+  padding: 0.5em;
+  border: none;
+  color: white;
+}
+.fifth-section{
+  background-color: #f7b617;
+  height: 80vh;
+}
+.fifth-section2{
+  background-color: #f7b617;
+  height: 130vh;
+}
+.map2{
+  padding-left: 3.5em;
+}
+.enter-location{
+  padding: 4em 5em;
+}
+.input{
+  background-color: #f7b617;
+  border: 0.1em solid white;
+  padding: 1em 4em;
+} 
+.input::placeholder{ 
+  color: white; 
+}
+
+.map{
+  padding: 6em 5em;
+}
+.sixth-section{
+	background-color: #2E2E2E;
+	height: 130vh;
+  width: 100%;
+}
+.sixth-section2{
+  background-color: #2E2E2E;
+  width: 100%;
+  height: 70vh;
+}
+.a-footer{
+	padding-top: 3em;
+}
+.hr-footer{
+  width: 100%;
+}
+.ul-footer1 a, .ul-phone a{  
+  text-decoration: none;
+  color: white;
+}
+.ul-footer1, .ul-phone{
+  list-style: none;
+}
+.icon-footer{
+  padding-top: 25em;
+}
+.fa{
+  color: white;
+  padding: 0.2em;
+}
+.hr2{
+  width: 100%;
+}
