@@ -1,14 +1,14 @@
 /* Los estilos de tu proyecto */
 *{
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
   color: white;
 }
 /* Estilos de la barra menú */
 .height-navbar{
-	height: 10vh;
-	padding-left: 1em;
-	padding-right: 2em;
+  height: 10vh;
+  padding-left: 1em;
+  padding-right: 2em;
 }
 .container-modal{
   background-color: #01DFA5;
@@ -16,11 +16,11 @@
 
 /* Estilos imagen de fondo taxi segunda sección */ 
 .img1{
-	background-image: url(../images/taxi.jpg);
-	height: 100vh;
-	width: 100%;
-	background-size: cover;
-	background-position: bottom;
+  background-image: url(../images/taxi.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
 }
 /* Estilos cuadro de texto de la segunda sección desktop */
 .text-box{
@@ -36,24 +36,24 @@
   width: 40em;
   padding: 3em 3em;
   margin-top: 12em;
-  margin-left: 12em;
+  margin-left: 7em;
 }
 .h2-text-box{
-	margin-top: 0;
+  margin-top: 0;
 }
 img .logo-blanco{
-	font-size: 2em;
+  font-size: 2em;
 }
 hr{
-	width: 5em;
+  width: 5em;
 }
 /* Estilos de las líneas a los lados del texto o bien */
 .p-text-box::after, .p-text-box::before{
- 	content: "";
-	display: inline-block;
- 	width: 8em;
- 	height: 0.1em;
- 	background-color: white;
+  content: "";
+  display: inline-block;
+  width: 8em;
+  height: 0.1em;
+  background-color: white;
   margin: 0 8px;
 }
 /* Estilos texto modal */
@@ -87,8 +87,8 @@ hr{
 }
 /* Estilos tercera sección desktop*/
 .third-section{
-	background-color: #f7b617;
-	background-size: cover;
+  background-color: #f7b617;
+  background-size: cover;
   height: 83vh;
   padding-top: 3.5em;
 }
@@ -100,7 +100,7 @@ hr{
 /* Estilos tercera sección mobile */
 .third-section-2{
   background-color: #f7b617;
-  height: 95vh;
+  height: 130vh;
   padding-top: 2em;
 }
 /* Estilos teléfono para mobile */
@@ -118,30 +118,30 @@ hr{
   width: 20em;
 }
 .img-iphone{
-	padding-top: 2em;
-	padding-bottom: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 .border{
-	border-top: 0.1em solid white;
+  border-top: 0.1em solid white;
   border-bottom: 0.1em solid white;
   border-right: 0.1em solid white;
 }
 p{
-	padding-top: 1em;
-	font-size: 1.2em;
+  padding-top: 1em;
+  font-size: 1.2em;
 }
 .img2{
-	background-image: url(../images/conduce.jpg);
-	height: 80vh;
-	width: 100%;
-	background-size: cover;
-	background-position: bottom;
+  background-image: url(../images/conduce.jpg);
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
 }
 .p-modal3{
   color: black;
 }
 .cont-driver{
-	margin-left: 11.3em;   
+  margin-left: 11.3em;   
   width: 33.5em;
   box-sizing: border-box;
   padding: 3em 2em;
@@ -152,15 +152,15 @@ p{
 .cont-driver-mobile{
   width: 100%;
   padding: 3em 2em;
-  height: 35em;
+  height: 26em;
   background-color: #000000;
   opacity: 0.7;
 }
 .h3-cont{
-	padding-top: 3em;
+  padding-top: 3em;
 }
 .button-cont{
-	background-color: #f7b617;
+  background-color: #f7b617;
   border-radius: 0.2em;
   color: white;
   padding: 0.5em;
@@ -173,10 +173,10 @@ p{
 }
 .fifth-section2{
   background-color: #f7b617;
-  height: 130vh;
+  height: 180vh;
 }
 .map2{
-  padding-left: 3.5em;
+  padding-left: 1.7em;
 }
 .enter-location{
   padding: 4em 5em;
@@ -184,7 +184,7 @@ p{
 .input{
   background-color: #f7b617;
   border: 0.1em solid white;
-  padding: 1em 4em;
+  padding: 1em 3em;
 } 
 .input::placeholder{ 
   color: white; 
@@ -194,17 +194,17 @@ p{
   padding: 6em 5em;
 }
 .sixth-section{
-	background-color: #2E2E2E;
-	height: 130vh;
+  background-color: #2E2E2E;
+  height: 130vh;
   width: 100%;
 }
 .sixth-section2{
   background-color: #2E2E2E;
   width: 100%;
-  height: 70vh;
+  height: 90vh;
 }
 .a-footer{
-	padding-top: 3em;
+  padding-top: 3em;
 }
 .hr-footer{
   width: 100%;
